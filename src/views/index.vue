@@ -4,7 +4,7 @@
       <h2>FusionCharts List Demo</h2>
     </div>
     <ul>
-      <li><a @click="toIndex('/Area2D')">Area2D</a></li>
+      <li><a @click="toIndex('/Area2D')">Area2D(default)</a></li>
       <li><a @click="toIndex('/Bar2D')">Bar2D</a></li>
     </ul>
    </div>
