@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div>Bar2D</div>
+    <div>Bar3D</div>
     <div class="content">
       <fusioncharts
         :type="type"
         :width="width"
         :height="height"
-        :dataformat="dataformat"
-        :datasource="datasource">
+        :dataFormat="dataFormat"
+        :dataSource="dataSource">
       </fusioncharts>
     </div>
   </div>
@@ -15,14 +15,14 @@
 
 <script>
 export default {
-  name: 'Bar2D',
+  name: 'Bar3D',
   data () {
     return {
-      'type': 'bar2d',
+      'type': 'bar3d',
       'width': '550',
       'height': '350',
-      'dataformat': 'json',
-      'datasource': {
+      'dataFormat': 'json',
+      'dataSource': {
         'chart': {
           'caption': 'Top 5 Stores by Sales',
           'subCaption': 'Last month',

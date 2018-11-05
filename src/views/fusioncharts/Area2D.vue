@@ -7,10 +7,7 @@
         :width="width"
         :height="height"
         :dataformat="dataformat"
-        :datasource="datasource"
-        :animation="animation"
-        :animationDuration="animationDuration"
-        :containerbackgroundopacity="containerbackgroundopacity">
+        :datasource="datasource">
       </fusioncharts>
     </div>
   </div>

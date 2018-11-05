@@ -37,6 +37,14 @@ export default new Router({
       path: '/Bar2D',
       name: 'Bar2D',
       component: () => import('@/views/fusioncharts/Bar2D')
+    }, {
+      path: '/Bar3D',
+      name: 'Bar3D',
+      component: () => import('@/views/fusioncharts/Bar3D')
+    }, {
+      path: '/BoxAndWhisker2D',
+      name: 'BoxAndWhisker2D',
+      component: () => import('@/views/fusioncharts/BoxAndWhisker2D')
     }
   ]
 })

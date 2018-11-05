@@ -8,9 +8,11 @@ import router from './router'
 import VueFusionCharts from 'vue-fusioncharts/dist/vue-fusioncharts.js'
 import FusionCharts from 'fusioncharts'
 import charts from 'fusioncharts/fusioncharts.charts'
+import powercharts from 'fusioncharts/fusioncharts.powercharts'
+// if test all types need to import all one by one
 import FusionTheme from 'fusioncharts/themes/fusioncharts.theme.fusion'
 FusionCharts.options.creditLabel = false
-Vue.use(VueFusionCharts, FusionCharts, charts, FusionTheme)
+Vue.use(VueFusionCharts, FusionCharts, charts, powercharts, FusionTheme)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
