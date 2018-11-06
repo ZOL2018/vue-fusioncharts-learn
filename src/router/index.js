@@ -45,6 +45,46 @@ export default new Router({
       path: '/BoxAndWhisker2D',
       name: 'BoxAndWhisker2D',
       component: () => import('@/views/fusioncharts/BoxAndWhisker2D')
+    }, {
+      path: '/Bubble',
+      name: 'Bubble',
+      component: () => import('@/views/fusioncharts/Bubble')
+    }, {
+      path: '/CandleStick',
+      name: 'CandleStick',
+      component: () => import('@/views/fusioncharts/CandleStick')
+    }, {
+      path: '/Column2D',
+      name: 'Column2D',
+      component: () => import('@/views/fusioncharts/Column2D')
+    }, {
+      path: '/Column3D',
+      name: 'Column3D',
+      component: () => import('@/views/fusioncharts/Column3D')
+    }, {
+      path: '/DoughNut2D',
+      name: 'DoughNut2D',
+      component: () => import('@/views/fusioncharts/DoughNut2D')
+    }, {
+      path: '/DoughNut3D',
+      name: 'DoughNut3D',
+      component: () => import('@/views/fusioncharts/DoughNut3D')
+    }, {
+      path: '/DragNode',
+      name: 'DragNode',
+      component: () => import('@/views/fusioncharts/DragNode')
+    }, {
+      path: '/DragArea',
+      name: 'DragArea',
+      component: () => import('@/views/fusioncharts/DragArea')
+    }, {
+      path: '/DragColumn2D',
+      name: 'DragColumn2D',
+      component: () => import('@/views/fusioncharts/DragColumn2D')
+    }, {
+      path: '/DragLine',
+      name: 'DragLine',
+      component: () => import('@/views/fusioncharts/DragLine')
     }
   ]
 })
