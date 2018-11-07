@@ -18,6 +18,18 @@
       <li><a @click="toIndex('/DragArea')">DragArea</a></li>
       <li><a @click="toIndex('/DragColumn2D')">DragColumn2D</a></li>
       <li><a @click="toIndex('/DragLine')">DragLine</a></li>
+      <li><a @click="toIndex('/ErrorBar2D')">ErrorBar2D</a></li>
+      <li><a @click="toIndex('/ErrorLine')">ErrorLine</a></li>
+      <li><a @click="toIndex('/ErrorScatter')">ErrorScatter</a></li>
+      <li><a @click="toIndex('/Funnel')">Funnel</a></li>
+      <li><a @click="toIndex('/Gantt')">Gantt</a></li>
+      <li><a @click="toIndex('/HeatMap')">HeatMap</a></li>
+      <li><a @click="toIndex('/HBullet')">HBullet</a></li>
+      <li><a @click="toIndex('/HLed')">HLed</a></li>
+      <li><a @click="toIndex('/InverseMSArea')">InverseMSArea</a></li>
+      <li><a @click="toIndex('/InverseMSColumn2D')">InverseMSColumn2D</a></li>
+      <li><a @click="toIndex('/InverseMSLine')">InverseMSLine</a></li>
+      <li><a @click="toIndex('/KaGi')">KaGi</a></li>
     </ol>
    </div>
 </template>

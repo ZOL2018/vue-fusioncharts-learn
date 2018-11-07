@@ -85,6 +85,54 @@ export default new Router({
       path: '/DragLine',
       name: 'DragLine',
       component: () => import('@/views/fusioncharts/DragLine')
+    }, {
+      path: '/ErrorBar2D',
+      name: 'ErrorBar2D',
+      component: () => import('@/views/fusioncharts/ErrorBar2D')
+    }, {
+      path: '/ErrorLine',
+      name: 'ErrorLine',
+      component: () => import('@/views/fusioncharts/ErrorLine')
+    }, {
+      path: '/ErrorScatter',
+      name: 'ErrorScatter',
+      component: () => import('@/views/fusioncharts/ErrorScatter')
+    }, {
+      path: '/Funnel',
+      name: 'Funnel',
+      component: () => import('@/views/fusioncharts/Funnel')
+    }, {
+      path: '/Gantt',
+      name: 'Gantt',
+      component: () => import('@/views/fusioncharts/Gantt')
+    }, {
+      path: '/HeatMap',
+      name: 'HeatMap',
+      component: () => import('@/views/fusioncharts/HeatMap')
+    }, {
+      path: '/HBullet',
+      name: 'HBullet',
+      component: () => import('@/views/fusioncharts/HBullet')
+    }, {
+      path: '/HLed',
+      name: 'HLed',
+      component: () => import('@/views/fusioncharts/HLed')
+    }, {
+      path: '/InverseMSArea',
+      name: 'InverseMSArea',
+      component: () => import('@/views/fusioncharts/InverseMSArea')
+    }, {
+      path: '/InverseMSColumn2D',
+      name: 'InverseMSColumn2D',
+      component: () => import('@/views/fusioncharts/InverseMSColumn2D')
+    }, {
+      path: '/InverseMSLine',
+      name: 'InverseMSLine',
+      component: () => import('@/views/fusioncharts/InverseMSLine')
+    }, {
+      path: '/KaGi',
+      name: 'KaGi',
+      component: () => import('@/views/fusioncharts/KaGi')
     }
   ]
 })
