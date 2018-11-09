@@ -133,6 +133,38 @@ export default new Router({
       path: '/KaGi',
       name: 'KaGi',
       component: () => import('@/views/fusioncharts/KaGi')
+    }, {
+      path: '/Line',
+      name: 'Line',
+      component: () => import('@/views/fusioncharts/Line')
+    }, {
+      path: '/LogMSColumn2D',
+      name: 'LogMSColumn2D',
+      component: () => import('@/views/fusioncharts/LogMSColumn2D')
+    }, {
+      path: '/LogMSLine',
+      name: 'LogMSLine',
+      component: () => import('@/views/fusioncharts/LogMSLine')
+    }, {
+      path: '/Marimekko',
+      name: 'Marimekko',
+      component: () => import('@/views/fusioncharts/Marimekko')
+    }, {
+      path: '/MultiAxisLine',
+      name: 'MultiAxisLine',
+      component: () => import('@/views/fusioncharts/MultiAxisLine')
+    }, {
+      path: '/MultilevelPie',
+      name: 'MultilevelPie',
+      component: () => import('@/views/fusioncharts/MultilevelPie')
+    }, {
+      path: '/Mscombidy2d',
+      name: 'Mscombidy2d',
+      component: () => import('@/views/fusioncharts/Mscombidy2d')
+    }, {
+      path: '/Mscombi2d',
+      name: 'Mscombi2d',
+      component: () => import('@/views/fusioncharts/Mscombi2d')
     }
   ]
 })

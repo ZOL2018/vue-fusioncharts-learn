@@ -30,6 +30,14 @@
       <li><a @click="toIndex('/InverseMSColumn2D')">InverseMSColumn2D</a></li>
       <li><a @click="toIndex('/InverseMSLine')">InverseMSLine</a></li>
       <li><a @click="toIndex('/KaGi')">KaGi</a></li>
+      <li><a @click="toIndex('/Line')">Line</a></li>
+      <li><a @click="toIndex('/LogMSColumn2D')">LogMSColumn2D</a></li>
+      <li><a @click="toIndex('/LogMSLine')">LogMSLine</a></li>
+      <li><a @click="toIndex('/Marimekko')">Marimekko</a></li>
+      <li><a @click="toIndex('/MultiAxisLine')">MultiAxisLine</a></li>
+      <li><a @click="toIndex('/MultilevelPie')">MultilevelPie</a></li>
+      <li><a @click="toIndex('/Mscombidy2d')">Mscombidy2d</a></li>
+      <li><a @click="toIndex('/Mscombi2d')">Mscombi2d</a></li>
     </ol>
    </div>
 </template>
