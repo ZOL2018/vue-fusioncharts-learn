@@ -1,0 +1,122 @@
+<template>
+  <div>
+    <div>MSColumn3dLinedY</div>
+    <div class="content">
+      <fusioncharts
+        :type="type"
+        :width="width"
+        :height="height"
+        :dataFormat="dataFormat"
+        :dataSource="dataSource">
+      </fusioncharts>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'MSColumn3dLinedY',
+  data () {
+    return {
+      type: 'MSColumn3dLinedY',
+      width: '600',
+      height: '400',
+      dataFormat: 'json',
+      dataSource: {
+        'chart': {
+          'caption': 'Product-wise Quarterly Revenue vs. Profit %',
+          'subCaption': "Harry's SuperMart - Last Year",
+          'xAxisname': 'Quarter',
+          'pYAxisName': 'Sales',
+          'sYAxisName': 'Profit %',
+          'numberPrefix': '$',
+          'sNumberSuffix': '%',
+          'sYAxisMaxValue': '25',
+          'theme': 'fusion'
+        },
+        'categories': [
+          {
+            'category': [
+              {
+                'label': 'Q1'
+              },
+              {
+                'label': 'Q2'
+              },
+              {
+                'label': 'Q3'
+              },
+              {
+                'label': 'Q4'
+              }
+            ]
+          }
+        ],
+        'dataset': [
+          {
+            'seriesname': 'Food Products',
+            'data': [
+              {
+                'value': '11000'
+              },
+              {
+                'value': '14000'
+              },
+              {
+                'value': '10500'
+              },
+              {
+                'value': '15000'
+              }
+            ]
+          },
+          {
+            'seriesname': 'Non-Food Products',
+            'data': [
+              {
+                'value': '14400'
+              },
+              {
+                'value': '14800'
+              },
+              {
+                'value': '8300'
+              },
+              {
+                'value': '11800'
+              }
+            ]
+          },
+          {
+            'seriesname': 'Profit %',
+            'renderAs': 'line',
+            'parentYAxis': 'S',
+            'showValues': '0',
+            'data': [
+              {
+                'value': '14'
+              },
+              {
+                'value': '16'
+              },
+              {
+                'value': '15'
+              },
+              {
+                'value': '17'
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
+</script>
+
+<style scoped>
+  .content{
+    width: 1000px;
+    height: 600px;
+  }
+</style>

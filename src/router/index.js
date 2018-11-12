@@ -165,6 +165,50 @@ export default new Router({
       path: '/Mscombi2d',
       name: 'Mscombi2d',
       component: () => import('@/views/fusioncharts/Mscombi2d')
+    }, {
+      path: '/Mscombi3d',
+      name: 'Mscombi3d',
+      component: () => import('@/views/fusioncharts/Mscombi3d')
+    }, {
+      path: '/MSArea',
+      name: 'MSArea',
+      component: () => import('@/views/fusioncharts/MSArea')
+    }, {
+      path: '/MSBar2d',
+      name: 'MSBar2d',
+      component: () => import('@/views/fusioncharts/MSBar2d')
+    }, {
+      path: '/MSBar3d',
+      name: 'MSBar3d',
+      component: () => import('@/views/fusioncharts/MSBar3d')
+    }, {
+      path: '/MSColumn2d',
+      name: 'MSColumn2d',
+      component: () => import('@/views/fusioncharts/MSColumn2d')
+    }, {
+      path: '/MSColumn3d',
+      name: 'MSColumn3d',
+      component: () => import('@/views/fusioncharts/MSColumn3d')
+    }, {
+      path: '/MSColumn3dLinedY',
+      name: 'MSColumn3dLinedY',
+      component: () => import('@/views/fusioncharts/MSColumn3dLinedY')
+    }, {
+      path: '/MSColumnLine3d',
+      name: 'MSColumnLine3d',
+      component: () => import('@/views/fusioncharts/MSColumnLine3d')
+    }, {
+      path: '/MSLine',
+      name: 'MSLine',
+      component: () => import('@/views/fusioncharts/MSLine')
+    }, {
+      path: '/MSSpline',
+      name: 'MSSpline',
+      component: () => import('@/views/fusioncharts/MSSpline')
+    }, {
+      path: '/MSSplineArea',
+      name: 'MSSplineArea',
+      component: () => import('@/views/fusioncharts/MSSplineArea')
     }
   ]
 })
