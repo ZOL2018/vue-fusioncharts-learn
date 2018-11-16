@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Index from '@/views/index'
+import random from '@/views/random/random'
 
 // fusioncharts demo
 // 必须引入 vue-fusioncharts 和 fusioncharts
@@ -23,6 +24,11 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
+    {
+      path: '/random',
+      name: 'random',
+      component: random
+    },
     {
       path: '',
       name: 'Index',

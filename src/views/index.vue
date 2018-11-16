@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <h2>FusionCharts List Demo</h2>
+      <h2>FusionCharts List Demo <a @click="toIndex('/random')">random</a></h2>
     </div>
     <ol>
       <div class="float-left">
