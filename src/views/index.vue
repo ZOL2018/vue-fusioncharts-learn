@@ -66,7 +66,25 @@
         <li><a @click="toIndex('/MSLine')">MSLine</a></li>
         <li><a @click="toIndex('/MSSpline')">MSSpline</a></li>
         <li><a @click="toIndex('/MSSplineArea')">MSSplineArea</a></li>
-      </div><div class="float-left">
+      </div>
+      <div class="float-left">
+        <li><a @click="toIndex('/MSStackedColumn2d')">MSStackedColumn2d</a></li>
+        <li><a @click="toIndex('/MSStackedColumn2dLinedY')">MSStackedColumn2dLinedY</a></li>
+        <li><a @click="toIndex('/OverLappedColumn2d')">OverLappedColumn2d</a></li>
+        <li><a @click="toIndex('/OverLappedBar2d')">OverLappedBar2d</a></li>
+        <li><a @click="toIndex('/Pareto2d')">Pareto2d</a></li>
+      </div>
+      <div class="float-left">
+        <li><a @click="toIndex('/Pareto3d')">Pareto3d</a></li>
+        <li><a @click="toIndex('/Pie2d')">Pie2d</a></li>
+        <li><a @click="toIndex('/Pie3d')">Pie3d</a></li>
+        <li><a @click="toIndex('/Pyramid')">Pyramid</a></li>
+        <li><a @click="toIndex('/Radar')">Radar</a></li>
+      </div>
+      <div class="float-left">
+        <li><a @click="toIndex('/DefaultCharts')">DefaultCharts</a></li>
+      </div>
+      <div class="float-left">
         <li><a @click="toIndex('/DefaultCharts')">DefaultCharts</a></li>
       </div>
     </ol>
@@ -93,7 +111,7 @@ export default {
   }
   .float-left{
     float: left;
-    width: 200px;
+    width: 300px;
     height: 120px;
   }
 </style>

@@ -4,22 +4,22 @@ import Index from '@/views/index'
 
 // fusioncharts demo
 // 必须引入 vue-fusioncharts 和 fusioncharts
-import VueFusionCharts from 'vue-fusioncharts'
-import FusionCharts from 'fusioncharts/core'
+// import VueFusionCharts from 'vue-fusioncharts'
+// import FusionCharts from 'fusioncharts/core'
 // 可选，引入扁平画主题
-import FusionTheme from 'fusioncharts/themes/es/fusioncharts.theme.fusion'
+// import FusionTheme from 'fusioncharts/themes/es/fusioncharts.theme.fusion'
 // map
 // import FusionMaps from 'fusioncharts/maps'
 // import World from 'fusioncharts/maps/es/fusioncharts.world'
 
 // 想显示图形，必须引入图形类型模块。
 // 比如饼状图如下
-import Pie2D from 'fusioncharts/viz/pie2d'
+// import Pie2D from 'fusioncharts/viz/pie2d'
 // import Area2D from '@/views/fusioncharts/Area2D/2d'
 Vue.use(Router)
 // 去除 水印
-FusionCharts.options.creditLabel = false
-Vue.use(VueFusionCharts, FusionCharts, FusionTheme, Pie2D) // 添加多个类型图形，就在后面添加上。
+// FusionCharts.options.creditLabel = false
+// Vue.use(VueFusionCharts, FusionCharts, FusionTheme, Pie2D) // 添加多个类型图形，就在后面添加上。
 
 export default new Router({
   routes: [
@@ -209,6 +209,46 @@ export default new Router({
       path: '/MSSplineArea',
       name: 'MSSplineArea',
       component: () => import('@/views/fusioncharts/MSSplineArea')
+    }, {
+      path: '/MSStackedColumn2d',
+      name: 'MSStackedColumn2d',
+      component: () => import('@/views/fusioncharts/MSStackedColumn2d')
+    }, {
+      path: '/MSStackedColumn2dLinedY',
+      name: 'MSStackedColumn2dLinedY',
+      component: () => import('@/views/fusioncharts/MSStackedColumn2dLinedY')
+    }, {
+      path: '/OverLappedColumn2d',
+      name: 'OverLappedColumn2d',
+      component: () => import('@/views/fusioncharts/OverLappedColumn2d')
+    }, {
+      path: '/OverLappedBar2d',
+      name: 'OverLappedBar2d',
+      component: () => import('@/views/fusioncharts/OverLappedBar2d')
+    }, {
+      path: '/Pareto2d',
+      name: 'Pareto2d',
+      component: () => import('@/views/fusioncharts/Pareto2d')
+    }, {
+      path: '/Pareto3d',
+      name: 'Pareto3d',
+      component: () => import('@/views/fusioncharts/Pareto3d')
+    }, {
+      path: '/Pie2d',
+      name: 'Pie2d',
+      component: () => import('@/views/fusioncharts/Pie2d')
+    }, {
+      path: '/Pie3d',
+      name: 'Pie3d',
+      component: () => import('@/views/fusioncharts/Pie3d')
+    }, {
+      path: '/Pyramid',
+      name: 'Pyramid',
+      component: () => import('@/views/fusioncharts/Pyramid')
+    }, {
+      path: '/Radar',
+      name: 'Radar',
+      component: () => import('@/views/fusioncharts/Radar')
     }
   ]
 })
