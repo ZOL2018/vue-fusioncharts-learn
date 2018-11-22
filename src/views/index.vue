@@ -82,10 +82,60 @@
         <li><a @click="toIndex('/Radar')">Radar</a></li>
       </div>
       <div class="float-left">
-        <li><a @click="toIndex('/DefaultCharts')">DefaultCharts</a></li>
+        <li><a @click="toIndex('/AngulArgauge')">AngulArgauge</a></li>
+        <li><a @click="toIndex('/RealTimeArea')">RealTimeArea</a></li>
+        <li><a @click="toIndex('/Bulb')">Bulb</a></li>
+        <li><a @click="toIndex('/RealTimeColumn')">RealTimeColumn</a></li>
+        <li><a @click="toIndex('/Cylinder')">Cylinder</a></li>
       </div>
       <div class="float-left">
-        <li><a @click="toIndex('/DefaultCharts')">DefaultCharts</a></li>
+        <li><a @click="toIndex('/HLinearGauge')">HLinearGauge</a></li>
+        <li><a @click="toIndex('/RealTimeLine')">RealTimeLine</a></li>
+        <li><a @click="toIndex('/RealTimeLineDy')">RealTimeLineDy</a></li>
+        <li><a @click="toIndex('/RealTimeStackedArea')">RealTimeStackedArea</a></li>
+        <li><a @click="toIndex('/RealTimeStackedColumn')">RealTimeStackedColumn</a></li>
+      </div>
+      <div class="float-left">
+        <li><a @click="toIndex('/Thermometer')">Thermometer</a></li>
+        <li><a @click="toIndex('/Scatter')">Scatter</a></li>
+        <li><a @click="toIndex('/ScrollArea2d')">ScrollArea2d</a></li>
+        <li><a @click="toIndex('/ScrollColumn2d')">ScrollColumn2d</a></li>
+        <li><a @click="toIndex('/ScrollCombidy2d')">ScrollCombidy2d</a></li>
+      </div>
+      <div class="float-left">
+        <li><a @click="toIndex('/ScrollCombi2d')">ScrollCombi2d</a></li>
+        <li><a @click="toIndex('/ScrollLine2d')">ScrollLine2d</a></li>
+        <li><a @click="toIndex('/ScrollStackedColumn2d')">ScrollStackedColumn2d</a></li>
+        <li><a @click="toIndex('/SelectScatter')">SelectScatter</a></li>
+        <li><a @click="toIndex('/Spline')">Spline</a></li>
+      </div>
+      <div class="float-left">
+        <li><a @click="toIndex('/SplineArea')">SplineArea</a></li>
+        <li><a @click="toIndex('/SparkColumn')">SparkColumn</a></li>
+        <li><a @click="toIndex('/SparkLine')">SparkLine</a></li>
+        <li><a @click="toIndex('/SparkWinloss')">SparkWinloss</a></li>
+        <li><a @click="toIndex('/StackedColumn2dLine')">StackedColumn2dLine</a></li>
+      </div>
+      <div class="float-left">
+        <li><a @click="toIndex('/StackedColumn3dLine')">StackedColumn3dLine</a></li>
+        <li><a @click="toIndex('/StackedArea2d')">StackedArea2d</a></li>
+        <li><a @click="toIndex('/StackedBar2d')">StackedBar2d</a></li>
+        <li><a @click="toIndex('/StackedBar3d')">StackedBar3d</a></li>
+        <li><a @click="toIndex('/StackedColumn2d')">StackedColumn2d</a></li>
+      </div>
+      <div class="float-left">
+        <li><a @click="toIndex('/StackedColumn3d')">StackedColumn3d</a></li>
+        <li><a @click="toIndex('/StackedColumn3dLinedy')">StackedColumn3dLinedy</a></li>
+        <li><a @click="toIndex('/MsstepLine')">MsstepLine</a></li>
+        <li><a @click="toIndex('/TreeMap')">TreeMap</a></li>
+        <li><a @click="toIndex('/Vbullet')">Vbullet</a></li>
+      </div>
+      <div class="float-left">
+        <li><a @click="toIndex('/Vled')">Vled</a></li>
+        <li><a @click="toIndex('/Waterfall2d')">Waterfall2d</a></li>
+        <li><a @click="toIndex('/ZoomLine')">ZoomLine</a></li>
+        <li><a @click="toIndex('/ZoomLineDy')">ZoomLineDy</a></li>
+        <li><a @click="toIndex('/ZoomScatter')">ZoomScatter</a></li>
       </div>
     </ol>
    </div>

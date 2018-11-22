@@ -255,6 +255,166 @@ export default new Router({
       path: '/Radar',
       name: 'Radar',
       component: () => import('@/views/fusioncharts/Radar')
+    }, {
+      path: '/AngulArgauge',
+      name: 'AngulArgauge',
+      component: () => import('@/views/fusioncharts/AngulArgauge')
+    }, {
+      path: '/RealTimeArea',
+      name: 'RealTimeArea',
+      component: () => import('@/views/fusioncharts/RealTimeArea')
+    }, {
+      path: '/Bulb',
+      name: 'Bulb',
+      component: () => import('@/views/fusioncharts/Bulb')
+    }, {
+      path: '/RealTimeColumn',
+      name: 'RealTimeColumn',
+      component: () => import('@/views/fusioncharts/RealTimeColumn')
+    }, {
+      path: '/Cylinder',
+      name: 'Cylinder',
+      component: () => import('@/views/fusioncharts/Cylinder')
+    }, {
+      path: '/HLinearGauge',
+      name: 'HLinearGauge',
+      component: () => import('@/views/fusioncharts/HLinearGauge')
+    }, {
+      path: '/RealTimeLine',
+      name: 'RealTimeLine',
+      component: () => import('@/views/fusioncharts/RealTimeLine')
+    }, {
+      path: '/RealTimeLineDy',
+      name: 'RealTimeLineDy',
+      component: () => import('@/views/fusioncharts/RealTimeLineDy')
+    }, {
+      path: '/RealTimeStackedArea',
+      name: 'RealTimeStackedArea',
+      component: () => import('@/views/fusioncharts/RealTimeStackedArea')
+    }, {
+      path: '/RealTimeStackedColumn',
+      name: 'RealTimeStackedColumn',
+      component: () => import('@/views/fusioncharts/RealTimeStackedColumn')
+    }, {
+      path: '/Thermometer',
+      name: 'Thermometer',
+      component: () => import('@/views/fusioncharts/Thermometer')
+    }, {
+      path: '/Scatter',
+      name: 'Scatter',
+      component: () => import('@/views/fusioncharts/Scatter')
+    }, {
+      path: '/ScrollArea2d',
+      name: 'ScrollArea2d',
+      component: () => import('@/views/fusioncharts/ScrollArea2d')
+    }, {
+      path: '/ScrollColumn2d',
+      name: 'ScrollColumn2d',
+      component: () => import('@/views/fusioncharts/ScrollColumn2d')
+    }, {
+      path: '/ScrollCombidy2d',
+      name: 'ScrollCombidy2d',
+      component: () => import('@/views/fusioncharts/ScrollCombidy2d')
+    }, {
+      path: '/ScrollCombi2d',
+      name: 'ScrollCombi2d',
+      component: () => import('@/views/fusioncharts/ScrollCombi2d')
+    }, {
+      path: '/ScrollLine2d',
+      name: 'ScrollLine2d',
+      component: () => import('@/views/fusioncharts/ScrollLine2d')
+    }, {
+      path: '/ScrollStackedColumn2d',
+      name: 'ScrollStackedColumn2d',
+      component: () => import('@/views/fusioncharts/ScrollStackedColumn2d')
+    }, {
+      path: '/SelectScatter',
+      name: 'SelectScatter',
+      component: () => import('@/views/fusioncharts/SelectScatter')
+    }, {
+      path: '/Spline',
+      name: 'Spline',
+      component: () => import('@/views/fusioncharts/Spline')
+    }, {
+      path: '/SplineArea',
+      name: 'SplineArea',
+      component: () => import('@/views/fusioncharts/SplineArea')
+    }, {
+      path: '/SparkColumn',
+      name: 'SparkColumn',
+      component: () => import('@/views/fusioncharts/SparkColumn')
+    }, {
+      path: '/SparkLine',
+      name: 'SparkLine',
+      component: () => import('@/views/fusioncharts/SparkLine')
+    }, {
+      path: '/SparkWinloss',
+      name: 'SparkWinloss',
+      component: () => import('@/views/fusioncharts/SparkWinloss')
+    }, {
+      path: '/StackedColumn2dLine',
+      name: 'StackedColumn2dLine',
+      component: () => import('@/views/fusioncharts/StackedColumn2dLine')
+    }, {
+      path: '/StackedColumn3dLine',
+      name: 'StackedColumn3dLine',
+      component: () => import('@/views/fusioncharts/StackedColumn3dLine')
+    }, {
+      path: '/StackedArea2d',
+      name: 'StackedArea2d',
+      component: () => import('@/views/fusioncharts/StackedArea2d')
+    }, {
+      path: '/StackedBar2d',
+      name: 'StackedBar2d',
+      component: () => import('@/views/fusioncharts/StackedBar2d')
+    }, {
+      path: '/StackedBar3d',
+      name: 'StackedBar3d',
+      component: () => import('@/views/fusioncharts/StackedBar3d')
+    }, {
+      path: '/StackedColumn2d',
+      name: 'StackedColumn2d',
+      component: () => import('@/views/fusioncharts/StackedColumn2d')
+    }, {
+      path: '/StackedColumn3d',
+      name: 'StackedColumn3d',
+      component: () => import('@/views/fusioncharts/StackedColumn3d')
+    }, {
+      path: '/StackedColumn3dLinedy',
+      name: 'StackedColumn3dLinedy',
+      component: () => import('@/views/fusioncharts/StackedColumn3dLinedy')
+    }, {
+      path: '/MsstepLine',
+      name: 'MsstepLine',
+      component: () => import('@/views/fusioncharts/MsstepLine')
+    }, {
+      path: '/TreeMap',
+      name: 'TreeMap',
+      component: () => import('@/views/fusioncharts/TreeMap')
+    }, {
+      path: '/Vbullet',
+      name: 'Vbullet',
+      component: () => import('@/views/fusioncharts/Vbullet')
+    }, {
+      path: '/Vled',
+      name: 'Vled',
+      component: () => import('@/views/fusioncharts/Vled')
+    }, {
+      path: '/Waterfall2d',
+      name: 'Waterfall2d',
+      component: () => import('@/views/fusioncharts/Waterfall2d')
+    }, {
+      path: '/ZoomLine',
+      name: 'ZoomLine',
+      component: () => import('@/views/fusioncharts/ZoomLine')
+    }, {
+      path: '/ZoomLineDy',
+      name: 'ZoomLineDy',
+      component: () => import('@/views/fusioncharts/ZoomLineDy')
+    }, {
+      path: '/ZoomScatter',
+      name: 'ZoomScatter',
+      component: () => import('@/views/fusioncharts/ZoomScatter')
     }
   ]
 })

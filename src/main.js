@@ -15,7 +15,8 @@ import powercharts from 'fusioncharts/fusioncharts.powercharts'
 // Funnel HBullet
 import widgets from 'fusioncharts/fusioncharts.widgets'
 // import ssgrid from 'fusioncharts/fusioncharts.ssgrid'
-// import treemap from 'fusioncharts/fusioncharts.treemap'
+// treemap
+import treemap from 'fusioncharts/fusioncharts.treemap'
 // overlappedbar2d
 import overlappedbar2d from 'fusioncharts/fusioncharts.overlappedbar2d'
 // import msstackedcolumn2dsplinedy from 'fusioncharts/fusioncharts.msstackedcolumn2dsplinedy'
@@ -25,12 +26,14 @@ import gantt from 'fusioncharts/fusioncharts.gantt'
 // overlappedcolumn2d
 import overlappedcolumn2d from 'fusioncharts/fusioncharts.overlappedcolumn2d'
 // import vml from 'fusioncharts/fusioncharts.vml'
-// import zoomline from 'fusioncharts/fusioncharts.zoomline'
-// import zoomscatter from 'fusioncharts/fusioncharts.zoomscatter'
+// zoomline
+import zoomline from 'fusioncharts/fusioncharts.zoomline'
+// zoomscatter
+import zoomscatter from 'fusioncharts/fusioncharts.zoomscatter'
 // if test all types need to import all one by one
 import FusionTheme from 'fusioncharts/themes/fusioncharts.theme.fusion'
 FusionCharts.options.creditLabel = false
-Vue.use(VueFusionCharts, FusionCharts, charts, powercharts, widgets, gantt, overlappedbar2d, overlappedcolumn2d, FusionTheme)
+Vue.use(VueFusionCharts, FusionCharts, charts, powercharts, widgets, gantt, overlappedbar2d, overlappedcolumn2d, treemap, zoomline, zoomscatter, FusionTheme)
 // Vue.use(VueFusionCharts, FusionCharts, charts, widgets, gantt, FusionTheme)
 // Vue.use(VueFusionCharts, FusionCharts, charts, gantt, FusionTheme)
 
